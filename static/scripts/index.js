@@ -1,0 +1,27 @@
+$(document).ready(function(){
+
+    $("#tabInfoDiv").click(function(){
+      $("#infoDiv").fadeIn("fast");
+      $("#decorDiv").fadeOut("fast");
+      $("#storiesDiv").fadeOut("fast");
+      $("#aboutDiv").fadeOut("fast");
+    });
+    $("#tabDecorDiv").click(function(){
+      $("#infoDiv").fadeOut("fast");
+      $("#decorDiv").fadeIn("fast");
+      $("#storiesDiv").fadeOut("fast");
+      $("#aboutDiv").fadeOut("fast");
+    });
+    $("#tabStoriesDiv").click(function(){
+      $("#infoDiv").fadeOut("fast");
+      $("#decorDiv").fadeOut("fast");
+      $("#storiesDiv").fadeIn("fast");
+      $("#aboutDiv").fadeOut("fast");
+    });
+    $("#tabAboutDiv").click(function(){
+      $("#infoDiv").fadeOut("fast");
+      $("#decorDiv").fadeOut("fast");
+      $("#storiesDiv").fadeOut("fast");
+      $("#aboutDiv").fadeIn("fast");
+    });
+});
